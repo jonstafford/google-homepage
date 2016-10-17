@@ -1,2 +1,2 @@
 # google-homepage
-Odin Project 
+Odin Project example page
