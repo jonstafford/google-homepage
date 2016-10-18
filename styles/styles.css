@@ -1,0 +1,96 @@
+
+.navbar {
+	text-align: right;
+	font-family: Arial, sans-serif;
+	font-size: smaller;
+}
+
+.gmail, .images, .options, .notifications {
+
+	margin: 0 6px;	
+	vertical-align: middle;
+	display: inline-block;
+}
+
+.options {
+	background-image: url('../images/keypad-grey.png');
+	height: 30px;
+	width: 30px;
+}
+
+.options:hover {
+	background-image: url('../images/keypad-black.png');
+	height: 30px;
+	width: 30px;
+}
+
+.notifications {
+	background-image: url('../images/bell-grey.png');
+	height: 30px;
+	width: 30px;
+}
+
+.notifications:hover {
+	background-image: url('../images/bell-black.png');
+	height: 30px;
+	width: 30px;
+}
+
+.main {
+	text-align: center;
+ 	display: block;
+	margin:200px auto 0 auto;
+	width: 500px;
+}
+
+.google-logo {
+	width: 272px;
+	margin: 0 0 30px 0;
+}
+
+
+.search-box-text {
+	box-sizing: border-box;
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+}
+
+/*
+.favorites-row {
+
+}
+*/
+
+.favorites-image {
+	box-sizing: border-box;
+	width: 25%;
+	padding: 5px;
+	border: 0;
+	margin: 0;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+ 
+    /* Position the tooltip text */
+    position: absolute;
+    z-index: 1;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
